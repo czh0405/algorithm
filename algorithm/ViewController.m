@@ -23,6 +23,7 @@
 
     int count = hammingWeight(5);
     NSLog(@"count = %d", count);
+    
 }
 
 
