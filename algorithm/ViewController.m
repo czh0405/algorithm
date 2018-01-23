@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "algorithm.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //test
+
+    int count = hammingWeight(5);
+    NSLog(@"count = %d", count);
 }
 
 
