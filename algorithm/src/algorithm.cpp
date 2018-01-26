@@ -7,6 +7,7 @@
 //
 
 #include "algorithm.h"
+#include <stdlib.h>
 
 int hammingWeight(uint32_t n)
 {
@@ -21,4 +22,20 @@ int hammingWeight(uint32_t n)
     printf("count = %d\n", count);
     
     return count;
+}
+
+
+int* twoSum(int* nums, int numsSize, int target)
+{
+    int *array = (int *)malloc(2 * sizeof(int));
+    for (int i = 0; i < numsSize -1; i++) {
+        for (int j = i + 1; j < numsSize; j++) {
+            if (target == nums[i] + nums[j]) {
+                array[0] = i;
+                array[1] = j;
+            }
+        }
+    }
+    
+    return array;
 }
