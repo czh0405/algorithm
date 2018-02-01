@@ -21,13 +21,16 @@
     
     //test
 
-    int count = hammingWeight(5);
+    int count = hammingWeight(8);
     NSLog(@"count = %d", count);
     
     
     int nums[4] = {2, 7, 11, 15};
     int *array = twoSum(nums, 4, 9);
     NSLog(@"array[0] = %d, array[1] = %d", array[0], array[1]);
+    
+    
+    int reverseNum = reverse(-123);
     
 }
 

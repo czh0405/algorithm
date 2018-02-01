@@ -40,6 +40,8 @@ extern "C"
      */
     int* twoSum(int* nums, int numsSize, int target);
     
+    int reverse(int num);
+    
 #ifdef __cplusplus
 }
 #endif
