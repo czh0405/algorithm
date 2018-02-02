@@ -32,6 +32,7 @@
     
     
     int reverseNum = reverse(-123);
+    NSLog(@"reverseNum = %d", reverseNum);
     
 }
 
