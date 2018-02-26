@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <inttypes.h>
+#include <stdint.h>
 
 //for leetcode algorithm
 
@@ -18,7 +19,7 @@
 extern "C"
 {
 #endif
-    
+
     // 一个整数二进制中1的个数
     int hammingWeight(uint32_t n);
     

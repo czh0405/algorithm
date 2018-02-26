@@ -7,6 +7,11 @@
 //
 
 
+
+
+// Note : 把本文的名字后缀ViewController.m 改成 ViewController.mm
+//        algorithm.h中的函数声明不用加extern "C"
+
 #import "ViewController.h"
 #import "algorithm.h"
 

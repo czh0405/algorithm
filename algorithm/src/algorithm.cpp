@@ -11,6 +11,9 @@
 #include <limits.h>
 #include <map>
 
+//
+// hammingWeight()
+//
 int hammingWeight(uint32_t n)
 {
     int count = 0;
@@ -35,6 +38,10 @@ int hammingWeight(uint32_t n)
     return count;
 }
 
+
+//
+// twoSum()
+//
 
 //int* twoSum(int* nums, int numsSize, int target)
 //{
@@ -68,6 +75,11 @@ int* twoSum(int* nums, int numsSize, int target)
     
     return array;
 }
+
+
+//
+// reverse()
+//
 
 int reverse(int num)
 {
