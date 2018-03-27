@@ -33,7 +33,7 @@ int hammingWeight(uint32_t n)
         n = n >> 1;
     }
     
-    printf("count = %d\n", count);
+    printf("count = %04d\n", count);
     
     return count;
 }
