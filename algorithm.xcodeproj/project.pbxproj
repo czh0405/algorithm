@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E93D21AB201734F30039EB02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93D21AA201734F30039EB02 /* AppDelegate.m */; };
-		E93D21AE201734F30039EB02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93D21AD201734F30039EB02 /* ViewController.m */; };
+		E93D21AE201734F30039EB02 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E93D21AD201734F30039EB02 /* ViewController.mm */; };
 		E93D21B1201734F30039EB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93D21AF201734F30039EB02 /* Main.storyboard */; };
 		E93D21B3201734F30039EB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93D21B2201734F30039EB02 /* Assets.xcassets */; };
 		E93D21B6201734F30039EB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93D21B4201734F30039EB02 /* LaunchScreen.storyboard */; };
 		E93D21B9201734F30039EB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E93D21B8201734F30039EB02 /* main.m */; };
 		E93D21C220173C7F0039EB02 /* algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93D21C120173C7F0039EB02 /* algorithm.cpp */; };
+		E995837C256CEF2A00B05435 /* virtualfuncion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E995837A256CEF2A00B05435 /* virtualfuncion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,7 @@
 		E93D21A9201734F30039EB02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E93D21AA201734F30039EB02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E93D21AC201734F30039EB02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E93D21AD201734F30039EB02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E93D21AD201734F30039EB02 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		E93D21B0201734F30039EB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E93D21B2201734F30039EB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93D21B5201734F30039EB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +30,8 @@
 		E93D21B8201734F30039EB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E93D21C020173C7F0039EB02 /* algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = algorithm.h; sourceTree = "<group>"; };
 		E93D21C120173C7F0039EB02 /* algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algorithm.cpp; sourceTree = "<group>"; };
+		E995837A256CEF2A00B05435 /* virtualfuncion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = virtualfuncion.cpp; sourceTree = "<group>"; };
+		E995837B256CEF2A00B05435 /* virtualfuncion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = virtualfuncion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +68,7 @@
 				E93D21A9201734F30039EB02 /* AppDelegate.h */,
 				E93D21AA201734F30039EB02 /* AppDelegate.m */,
 				E93D21AC201734F30039EB02 /* ViewController.h */,
-				E93D21AD201734F30039EB02 /* ViewController.m */,
+				E93D21AD201734F30039EB02 /* ViewController.mm */,
 				E93D21AF201734F30039EB02 /* Main.storyboard */,
 				E93D21B2201734F30039EB02 /* Assets.xcassets */,
 				E93D21B4201734F30039EB02 /* LaunchScreen.storyboard */,
@@ -80,6 +83,8 @@
 			children = (
 				E93D21C120173C7F0039EB02 /* algorithm.cpp */,
 				E93D21C020173C7F0039EB02 /* algorithm.h */,
+				E995837A256CEF2A00B05435 /* virtualfuncion.cpp */,
+				E995837B256CEF2A00B05435 /* virtualfuncion.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -155,10 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93D21AE201734F30039EB02 /* ViewController.m in Sources */,
+				E93D21AE201734F30039EB02 /* ViewController.mm in Sources */,
 				E93D21C220173C7F0039EB02 /* algorithm.cpp in Sources */,
 				E93D21B9201734F30039EB02 /* main.m in Sources */,
 				E93D21AB201734F30039EB02 /* AppDelegate.m in Sources */,
+				E995837C256CEF2A00B05435 /* virtualfuncion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

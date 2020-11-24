@@ -14,6 +14,7 @@
 
 #import "ViewController.h"
 #import "algorithm.h"
+#include "virtualfuncion.h"
 
 @interface ViewController ()
 
@@ -40,6 +41,14 @@
     NSLog(@"reverseNum = %d", reverseNum);
     
     NSLog(@"=======end === ");
+    
+    NSLog(@"=======testVirturalOne begin  === ");
+    testVirturalOne();
+    NSLog(@"=======testVirturalOne end  === ");
+    
+    NSLog(@"=======testVirturalTwo begin  === ");
+    testVirturalTwo();
+    NSLog(@"=======testVirturalTwo end  === ");
     
 }
 
